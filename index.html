@@ -1,112 +1,242 @@
 <!DOCTYPE html>
-<html lang="zh-cmn-Hans">
+<html>
   <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="viewport-fit=cover, width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
-  <meta http-equiv=”Cache-Control” content="no-transform" />
-  <meta http-equiv="Cache-Control" content="no-siteapp">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+  <meta name="description" content="Try everything!">
+  <meta name="keyword" content="hexo-theme, vuejs">
   
-  <title>Sunglo&#39;s blog</title>
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon.icon">
+    <link rel="shortcut icon" href="/css/images/logo.png">
+  
+  <title>
+    
+      Sunglo&#39;s blog
+    
+  </title>
+  <link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href="//cdnjs.cloudflare.com/ajax/libs/nprogress/0.2.0/nprogress.min.css" rel="stylesheet">
+  <link href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/tomorrow.min.css" rel="stylesheet">
+  
+<link rel="stylesheet" href="/css/style.css">
+
+  
+    
+<link rel="stylesheet" href="/css/plugins/gitment.css">
+
+  
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/geopattern/1.2.3/js/geopattern.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/nprogress/0.2.0/nprogress.min.js"></script>
+  
+    
+<script src="/js/qrious.js"></script>
+
+  
+  
+    
+<script src="/js/gitment.js"></script>
+
+  
+  
+  
+    <!-- MathJax support START -->
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        tex2jax: {
+          inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+          processEscapes: true,
+          skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+        }
+      });
+    </script>
+
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for (i=0; i < all.length; i += 1) {
+          all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+      });
+    </script>
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <!-- MathJax support END -->
   
 
 
-
-<link rel="stylesheet" href="/./vendor.4879b4.css"><link rel="stylesheet" href="/./app.72f659.css">
-
-
+  
 <meta name="generator" content="Hexo 4.2.0"></head>
+<div class="wechat-share">
+  <img src="/css/images/logo.png" />
+</div>
+
   <body>
-    <header class="main-header">
-  <div class="container">
-    <a href="/"" class="logo">
-      <img src="/avatar.jpeg" alt="Sunglo&#39;s blog" class="logo-img">
+    <header class="header fixed-header">
+  <div class="header-container">
+    <a class="home-link" href="/">
+      <div class="logo"></div>
+      <span>Sunglo's blog</span>
     </a>
-    <span class="nav-separator"></span>
-    <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="搜索文章"><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
-    <a href="javascript:void(0);" class="nav-icon">
-      <i class="fas fa-bars"></i>
-    </a>
-    <nav class="main-nav">
-      <ul class="nav-list">
+    <ul class="right-list">
+      
+        <li class="list-item">
+          
+            <a href="/" class="item-link active">Home</a>
+          
+        </li>
+      
+        <li class="list-item">
+          
+            <a href="/tags/" class="item-link">Tags</a>
+          
+        </li>
+      
+        <li class="list-item">
+          
+            <a href="/archives/" class="item-link">Archives</a>
+          
+        </li>
+      
+        <li class="list-item">
+          
+            <a href="/project/" class="item-link">Projects</a>
+          
+        </li>
+      
+        <li class="list-item">
+          
+            <a href="/about/" class="item-link">About</a>
+          
+        </li>
+      
+    </ul>
+    <div class="menu">
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </div>
+    <div class="menu-mask">
+      <ul class="menu-list">
         
-          <li class="nav-link active">
-            <a href="/">首页</a>
+          <li class="menu-item">
+            
+              <a href="/" class="menu-link mobile-active">Home</a>
+            
           </li>
         
-          <li class="nav-link ">
-            <a href="/archives/">归档</a>
+          <li class="menu-item">
+            
+              <a href="/tags/" class="menu-link">Tags</a>
+            
           </li>
         
-          <li class="nav-link ">
-            <a href="/categories">分类</a>
+          <li class="menu-item">
+            
+              <a href="/archives/" class="menu-link">Archives</a>
+            
           </li>
         
-          <li class="nav-link ">
-            <a href="/about">关于</a>
+          <li class="menu-item">
+            
+              <a href="/project/" class="menu-link">Projects</a>
+            
+          </li>
+        
+          <li class="menu-item">
+            
+              <a href="/about/" class="menu-link">About</a>
+            
           </li>
         
       </ul>
-    </nav>
+    </div>
   </div>
 </header>
+
+    <main class="app-body">
+  
+    <article class="article-card">
+      <h2 class="article-head">
+        <a href="/2020/04/28/test/">test</a>
+      </h2>
+      <p class="article-date">April 28, 2020</p>
       
-  
-    <div class="page--article-list">
-      <div class="container">
-        <ul class="article-list">
+      <div class="article-summary">
         
-          <li>
-            <a href="/2020/04/28/test/">
-              <h2 class="title">
-                test
-                <small>2020.04.28</small>
-              </h2>
-            </a>
-            <div class="excerpt"></div>
-              <footer class="article-footer">
-                <div class="tags">
-                  
-                </div>
-              </footer>
-          </li>
+          
         
-          <li>
-            <a href="/2020/04/28/hello-world/">
-              <h2 class="title">
-                Hello World
-                <small>2020.04.28</small>
-              </h2>
-            </a>
-            <div class="excerpt"></div>
-              <footer class="article-footer">
-                <div class="tags">
-                  
-                </div>
-              </footer>
-          </li>
-        
-      </ul>
       </div>
-
-    </div>
-
-    
+      <a class="more" href="/2020/04/28/test/">Read more</a>
+    </article>
+  
+    <article class="article-card">
+      <h2 class="article-head">
+        <a href="/2020/04/28/hello-world/">Hello World</a>
+      </h2>
+      <p class="article-date">April 28, 2020</p>
+      
+      <div class="article-summary">
+        
+          Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer ...
+        
+      </div>
+      <a class="more" href="/2020/04/28/hello-world/">Read more</a>
+    </article>
   
 
+  
+</main>
 
-    <footer class="main-footer">
-  <div class="container">
-    © 2018 
-  </div>
+
+    <div class="scroll-top">
+  <span class="arrow-icon"></span>
+</div>
+    <footer class="app-footer">
+  <p class="copyright">
+    &copy; 2020 | Proudly powered by <a href="https://hexo.io" target="_blank">Hexo</a>
+    <br>
+    Theme by <a href="https://github.com/yanm1ng" target="_blank" rel="noopener">yanm1ng</a>
+  </p>
 </footer>
-    
+
+<script>
+  function async(u, c) {
+    var d = document, t = 'script',
+      o = d.createElement(t),
+      s = d.getElementsByTagName(t)[0];
+    o.src = u;
+    if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+    s.parentNode.insertBefore(o, s);
+  }
+</script>
+<script>
+  async("//cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.6/fastclick.min.js", function(){
+    FastClick.attach(document.body);
+  })
+</script>
+
+<script>
+  var hasLine = 'true';
+  async("//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js", function(){
+    $('figure pre').each(function(i, block) {
+      var figure = $(this).parents('figure');
+      if (hasLine === 'false') {
+        figure.find('.gutter').hide();
+      }
+      var lang = figure.attr('class').split(' ')[1] || 'code';
+      var codeHtml = $(this).html();
+      var codeTag = document.createElement('code');
+      codeTag.className = lang;
+      codeTag.innerHTML = codeHtml;
+      $(this).attr('class', '').empty().html(codeTag);
+      figure.attr('data-lang', lang.toUpperCase());
+      hljs.highlightBlock(block);
+    });
+  })
+</script>
+<!-- Baidu Tongji -->
 
 
-
-<script src="/./runtime.32f029.js"></script><script src="/./vendor.4879b4.js"></script><script src="/./app.72f659.js"></script>
-
+<script src="/js/script.js"></script>
 
   </body>
 </html>
